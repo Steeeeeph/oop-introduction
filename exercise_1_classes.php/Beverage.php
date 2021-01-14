@@ -32,13 +32,3 @@ class Beverage
    }
 }
 
-$beverages[]= $cola = new Beverage("brown", 2);
-$beverages[]= $tea = new Beverage("clear", 1.5, "warm");
-
-echo $cola->getInfo();
-echo "<br>";
-echo $tea->getInfo();
-
-echo "<pre>";
-var_dump($beverages);
-echo "</pre>";
